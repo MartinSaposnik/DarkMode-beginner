@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background: url(../img/madera.jpg) center center no-repeat;
+    background-size: cover;
+    justify-content: center !important;
+    height: 200px;
+    border-bottom: 15px solid #020202;
+}
+div p {
+    font-size: 25px;
+}
+img {
+    margin: 15px;
+}
+p, h2,h3 {
+    font-family: 'Zen Antique', serif !important;
+}
+.titulo {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+.titulo h2 {
+    font-size: 50px;
+}
+.titulo img {
+    width: 400px;
+    margin-bottom: 40px;
+    box-shadow: 8px 8px 5px 0px #909090;
+}
+.parrafo23 img {
+    float: left;
+    width: 350px;
+}
+.parrafo31 img {
+    float: right;
+    width: 450px;
+}
+.fin {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+input[type ="checkbox"] {
+    -webkit-appearance: none;
+    position: relative;
+    width: 200px;
+    height: 100px;
+    background-image: url(../img/dia.jpg);
+    background-size: cover;
+    border-radius: 50px;
+    outline: none;
+    transition: background-image .90s;
+    box-shadow: 0px 2px 5px 1px gray;
+}
+
+input[type ="checkbox"]:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100px;
+    width: 100px;
+    background-color: navy;
+    border-radius: 50px;
+    transition: all .9s;
+    background-color: #F7CA33;
+}
+
+input[type ="checkbox"]:checked {
+    background-image: url(../img/noche.jpg);
+    transition: background-image .90s;
+}
+
+input[type ="checkbox"]:checked:before {
+    transform: translate(100%);
+    transition: all .9s;
+    background-color: #ECF0F3;
+}
+.dark-mode {
+    color:whitesmoke;
+    background-color: rgb(53 53 53);
+}
